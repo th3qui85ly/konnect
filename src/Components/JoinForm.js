@@ -19,7 +19,7 @@ function JoinForm() {
     e.preventDefault();
     let token;
 
-    if (inputValues.token == 'shiv-meet') {
+    if (inputValues.token === 'shiv-meet') {
       token = `eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2Nlc3Nfa2V5IjoiNjJhN2I2ZDZiODczNzg3YWEyNzBhYjI4Iiwicm9vbV9pZCI6IjYyYTg0MDVjMjYzMDIyMWM3NWE0NTY3ZSIsInVzZXJfaWQiOiJlZWRlYmdzdyIsInJvbGUiOiJ1c2VyIiwianRpIjoiMWJhNzA3MTUtMGNkMy00ZTlhLWJiODctZGQyY2FhY2JhMTc3IiwidHlwZSI6ImFwcCIsInZlcnNpb24iOjIsImV4cCI6MTY1NTI4NDIyNn0.ug_sS6qj7JEMslLWNu_lS1wzCNGO0zz_OpTv-I2t6bw`;
     }
     hmsActions.join({
