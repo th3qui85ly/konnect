@@ -20,7 +20,7 @@ function JoinForm() {
     let token;
 
     if (inputValues.token === 'shiv-meet') {
-      token = `eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2Nlc3Nfa2V5IjoiNjJhN2I2ZDZiODczNzg3YWEyNzBhYjI4Iiwicm9vbV9pZCI6IjYyYTg0MDVjMjYzMDIyMWM3NWE0NTY3ZSIsInVzZXJfaWQiOiJlZWRlYmdzdyIsInJvbGUiOiJ1c2VyIiwianRpIjoiMWJhNzA3MTUtMGNkMy00ZTlhLWJiODctZGQyY2FhY2JhMTc3IiwidHlwZSI6ImFwcCIsInZlcnNpb24iOjIsImV4cCI6MTY1NTI4NDIyNn0.ug_sS6qj7JEMslLWNu_lS1wzCNGO0zz_OpTv-I2t6bw`;
+      token = `eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2Nlc3Nfa2V5IjoiNjJhN2I2ZDZiODczNzg3YWEyNzBhYjI4Iiwicm9vbV9pZCI6IjYyYTg0MDVjMjYzMDIyMWM3NWE0NTY3ZSIsInVzZXJfaWQiOiJhamd6bHp3cCIsInJvbGUiOiJ1c2VyIiwianRpIjoiMWFlYzI1ZWYtNTllOS00ODE1LTk2MDAtODYxODNmN2Y5NmZiIiwidHlwZSI6ImFwcCIsInZlcnNpb24iOjIsImV4cCI6MTY1NTQzOTQwNH0.Wgf_Or-EWO1gldbqehdazaBhJN_7ygl9XP64YmIDzkM`;
     }
     hmsActions.join({
       userName: inputValues.name,

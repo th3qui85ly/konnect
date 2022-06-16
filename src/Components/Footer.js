@@ -1,6 +1,8 @@
 import { useAVToggle, useHMSActions } from "@100mslive/react-sdk";
 
 function Footer() {
+
+    let hmsActions = useHMSActions();
   const {
     isLocalAudioEnabled,
     isLocalVideoEnabled,
@@ -18,7 +20,7 @@ function Footer() {
       <button
             id="leave-btn"
             className="btn-danger"
-            onClick={() => useHMSActions.leave()}
+            onClick={() => hmsActions.leave()}
           >
             Leave Room
           </button>
